@@ -359,6 +359,11 @@ Sidebar
   transition: var(--transition);
   box-shadow: red;
   /* Toggle Logic */
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0%);
 }
 
 @media screen and (min-width: 676px) {
